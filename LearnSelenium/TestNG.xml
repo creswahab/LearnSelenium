@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="2" parallel="methods" thread-count="3">
+<listeners>
+	<listener class-name="LearnTestNG.ListenersExample"></listener>
+
+</listeners>
+<test name= "Test Cases">
+<!-- <groups>
+	<run>
+		<include name="Apple"></include>
+		<include name="Realme"></include>
+	</run>
+</groups> -->
+
+
+<classes>
+	<class name="LearnTestNG.ParallelTestingCases"></class>
+
+	<!-- <class name="LearnTestNG.Parametrization"></class> -->
+	<!-- <class name="LearnTestNG.GroupingTestCase"></class> -->
+	<!-- <class name="LearnTestNG.sampleTestCase"></class>
+	<class name="LearnTestNG.PriorityTestCase"></class>
+	<class name="LearnTestNG.skipATestCase"></class>
+	<class name="LearnTestNG.handleDependencies"></class> -->
+</classes>
+
+</test>
+</suite>
+
